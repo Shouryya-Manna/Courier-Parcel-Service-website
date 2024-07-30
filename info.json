@@ -1,0 +1,172 @@
+{
+    "statusCode": 200,
+    "statusMessage": "Success",
+    "messageDetails": null,
+    "details": {
+        "pod": "",
+        "vendorKey_s": "B4EXPRESS",
+        "scanBagIn_s": "0",
+        "datenumber_l": 1697129653748,
+        "vendorContact1": "9999999999",
+        "pushTrackingDone_b": false,
+        "rtoStatus_s": "no",
+        "allAddressDetails": {
+            "reconnectAddress": {
+                "Address": "",
+                "State": "",
+                "Landmark": "",
+                "City": "",
+                "Pincode": "",
+                "Name": "",
+                "Contact": ""
+            },
+            "receiverName": "",
+            "receiverContactNo": "",
+            "consigneAddress": {
+                "Address": "mahipal",
+                "State": "Delhi",
+                "Landmark": null,
+                "City": "Delhi",
+                "Pincode": "110037",
+                "Name": "hari",
+                "Contact": "9999999999"
+            },
+            "rtoAddress": {
+                "Address": "",
+                "State": "",
+                "Landmark": "",
+                "City": "",
+                "Pincode": "",
+                "Name": "",
+                "Contact": ""
+            }
+        },
+        "lastStatus_s": "Packet Received At Operation Facility",
+        "destinationBranch_s": "MAHIPALPUR",
+        "vendorName_s": "FABINDIA_OKHLA",
+        "branchName_s": "OKHLA",
+        "scanndSenderName": "",
+        "rtoDeclearCondition": null,
+        "drsStatus_s": "undefine",
+        "acceptedByClub_b": false,
+        "manifestcreatedFlage_s": "false",
+        "order": {
+            "orderDate_s": "2023/10/12 22:24:13",
+            "saleOderNo_s": "6465878"
+        },
+        "scanBagOut_s": "0",
+        "deliveryBoyName_s": "",
+        "nextLocation_s": "MAHIPALPUR",
+        "product": {
+            "flammble_b": "no",
+            "packets_i": 1,
+            "codeSKU": "Cloth",
+            "contents": "Cloth",
+            "perishable_b": "no"
+        },
+        "orderSource": {
+            "sourcePincode_s": "110020",
+            "sourceAddress": "C-40, Okhla Industrial Area, Phase-2",
+            "sourceCity_s": "Delhi"
+        },
+        "partnerAWB": "217569026",
+        "partnerName": "B4 EXPRESS",
+        "manifestId_s": "M_049398800318657204_MAHIPALPUR",
+        "manifestNo": "NA",
+        "routingMode_s": "SELF",
+        "version": 0,
+        "threePLManifestId_s": "",
+        "clientName_s": "FABINDIA",
+        "scannedFlage_s": "yes",
+        "bmpawbnumber_s": "217569026",
+        "charges": {
+            "declaredValue_d": 200,
+            "collectableValue_d": 0
+        },
+        "route": null,
+        "codcollectionFlow_s": "false",
+        "orderDestination": {
+            "destinationCity_s": "Delhi",
+            "destinationAddress": "mahipal",
+            "destinationAlterContact": null,
+            "destinationName": "hari",
+            "destinationPincode_s": "110037",
+            "destinationLandmark": null,
+            "destinationState_s": "Delhi",
+            "destinationContact_s": "9999999999",
+            "destinationEmail_s": null
+        },
+        "courier": {
+            "type_s": "PREPAID",
+            "courierSecondryName_s": "B4EXPRESS",
+            "courierAwbNumber_s": null,
+            "courierPrimaryName_s": "bmpexpress",
+            "bmpAwbNumber_s": "217569026"
+        },
+        "handOverBranch": null,
+        "currentLocation_s": "MAHIPALPUR",
+        "orderType_s": "FWD",
+        "handOver_b": false,
+        "destinationPincode_s": "110037",
+        "vendorAddress2": "",
+        "vendorAddress1": "C-40, Okhla Industrial Area, Phase-2",
+        "packetsHistory": [
+            {
+                "date": "2023/10/12 22:24:13",
+                "statusId": "32",
+                "awbNew": "217569026",
+                "activity": "Data Received",
+                "name": "HAR I",
+                "location": "OKHLA",
+                "reasonCode": ""
+            },
+            {
+                "date": "2023/10/12 22:25:04",
+                "statusId": "11",
+                "awbNew": "217569026",
+                "activity": "Picked Up",
+                "name": "HAR I",
+                "location": "RANCHI",
+                "reasonCode": ""
+            },
+            {
+                "date": "2023/10/12 22:25:04",
+                "statusId": "8",
+                "awbNew": "217569026",
+                "activity": "Packet Received At Operation Facility",
+                "name": "HAR I",
+                "location": "RANCHI",
+                "reasonCode": ""
+            },
+            {
+                "date": "2023/10/12 23:17:55",
+                "statusId": "9",
+                "awbNew": "217569026",
+                "activity": "Packet Forwarded To Destination",
+                "name": "HAR I",
+                "location": "RANCHI",
+                "reasonCode": ""
+            },
+            {
+                "date": "2023/10/12 23:26:33",
+                "statusId": "8",
+                "awbNew": "217569026",
+                "activity": "Packet Received At Operation Facility",
+                "name": "HAR I",
+                "location": "RANCHI",
+                "reasonCode": ""
+            },
+            {
+                "date": "2023/10/12 23:27:13",
+                "statusId": "8",
+                "awbNew": "217569026",
+                "activity": "Packet Received At Operation Facility",
+                "name": "HAR I",
+                "location": "MAHIPALPUR",
+                "reasonCode": ""
+            }
+        ],
+        "scannedDate_s": 1697129704225,
+        "orderPunchIn3pl_b": false
+    }
+}

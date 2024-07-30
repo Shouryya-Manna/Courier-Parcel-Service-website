@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Track Your shipment</title>
+    <link rel="stylesheet" href="track.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="outer">
+      <div class="redbox">
+        <div class="innerelem">
+          <div class="heading">TRACK YOUR SHIPMENT</div>
+          <div class="options">
+            <input type="radio" name="option" id="first" />
+            <label for="first">B4 AWB</label>
+            <input type="radio" name="option" id="second" />
+            <label for="second">ORDER ID / INVOICE NO.</label>
+            <input type="radio" name="option" id="third" />
+            <label for="third">PARTNER AWB</label>
+          </div>
+          <div class="input">
+            <input type="text" class="textbox" placeholder="Please enter your waybill number." id="tracks"/>
+            <a href="track2.html"><input type="button" value="Tracking"/></a>
+            <script src="index.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

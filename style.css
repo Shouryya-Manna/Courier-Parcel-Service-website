@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 20px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  height: 100px;
+  background-color: white;
+}
+
+.e1 {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover {
+  color: #e80019;
+}
+
+#left {
+  width: 25%;
+  font-size: 1.5rem;
+}
+
+.first {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px;
+  align-items: center;
+}
+
+.highlight {
+  color: #d03fa9;
+}
+
+#element {
+  color: #d03fa9;
+}
+
+.second {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.support {
+  color: #e80019;
+}
+.contactno {
+  color: black;
+}
+
+.first {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 65vh;
+  align-items: end;
+  background: url("/Images/Images/Truck.jpg") no-repeat center / cover;
+  background-position: center center;
+  background-size: cover;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.695);
+}
+
+.section {
+  text-align: center;
+  font-size: medium;
+  color: white;
+  background-color: #e80019;
+  height: 15vh;
+  width: 45vh;
+  min-width: 450px;
+  min-height: 150px;
+  position: relative;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.cards {
+  margin-top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.shipment_btn {
+  border-radius: 0 0 15px 15px;
+  background-color: #0e2c53;
+  border: 1px solid black;
+  color: white;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.shipment_btn:hover {
+  background-color: #195db7;
+}
+.title {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.info {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.services h2 {
+  padding-top: 70px;
+  text-align: center;
+  justify-content: center;
+  color: #e80019;
+  font-size: 50px;
+}
+
+.cardcollect {
+  width: 100%;
+  height: 531.5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.textoutline {
+  height: 399px;
+  width: 320px;
+  background-image: linear-gradient(180deg, yellow, orange, rgb(255, 123, 0));
+  border-radius: 15px;
+  display: grid;
+  place-content: center;
+}
+
+.card {
+  height: 350px;
+  width: 230px;
+}
+
+.serv_name {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.three,
+.five {
+  margin-bottom: 68px;
+}
+
+.serv_explain {
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
+.banner-card {
+  position: relative;
+  background-image: linear-gradient(180deg, rgb(232 179 0) 0%, #990313 100%);
+  width: 100%;
+  height: 387px;
+  overflow: hidden;
+}
+.banner-card img {
+  width: 100%;
+}
+
+.banner-text{
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.banner-text p{
+  margin-top: 30px;
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.banner-image{
+  background-position: top right;
+  background-size: cover;
+  opacity: 0.13;
+  transition: background 0.8s, border-radius 0.3s, opacity 0.3s;
+}
+
+.banneroverlay {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  color: black;
+
+}
+
